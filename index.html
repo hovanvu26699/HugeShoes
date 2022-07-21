@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huge Shoes</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <section class="header-top-bar">
+        <div class="container-header-top">
+          <div class="header-top-bar-left">
+            <ul>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <span>9876543210</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <span> info@somedomain.com </span>
+              </li>
+            </ul>
+          </div>
+          <div class="header-top-bar-right">
+            <ul>
+              <li>Store Location</li>
+              <li>Track Your Order</li>
+              <li>USD <i class="fa-solid fa-caret-down"></i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="header-main">
+        <div class="container-header-main">
+          <div class="header-main-logo">
+            <img src="media/logo.png" alt="" />
+          </div>
+
+          <div class="header-main-menu">
+            <div class="header-main-menu-home">
+              <a href="">Home</a>
+            </div>
+            <div class="header-main-menu-collection">
+              <a href="">Collection <i class="fa-solid fa-angle-down"></i></a>
+              <div class="collection-content">
+                <div class="products">
+                  <div class="products-image">
+                    <a href="">
+                      <img src="media/collection/shoes1.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="products-info">
+                    <a href="" class="products-title">Ballet Shoes</a>
+                    <span class="products-price">$532.00</span>
+                  </div>
+                </div>
+                <div class="products">
+                  <div class="products-image">
+                    <a href="">
+                      <img src="media/collection/shoes2.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="products-info">
+                    <a href="" class="products-title">Ballet Shoes</a>
+                    <span class="products-price">$532.00</span>
+                  </div>
+                </div>
+                <div class="products">
+                  <div class="products-image">
+                    <a href="">
+                      <img src="media/collection/shoes3.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="products-info">
+                    <a href="" class="products-title">Ballet Shoes</a>
+                    <span class="products-price">$532.00</span>
+                  </div>
+                </div>
+                <div class="products">
+                  <div class="products-image">
+                    <a href="">
+                      <img src="media/collection/shoes4.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="products-info">
+                    <a href="" class="products-title">Ballet Shoes</a>
+                    <span class="products-price">$532.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="header-main-menu-shoes">
+              <a href="">Shoes</a>
+            </div>
+            <div class="header-main-menu-boots">
+              <a href="">Boots</a>
+            </div>
+            <div class="header-main-menu-climbing">
+              <a href="">Climbing</a>
+            </div>
+            <div class="header-main-menu-pages">
+              <a href="">Pages <i class="fa-solid fa-angle-down"></i></a>
+              <div class="page-content">
+                <a href="#">About us</a>
+                <a href="#">Contact us</a>
+                <a href="#">Blog</a>
+                <a href="#">Whishlist</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="header-main-icon-right">
+            <div class="icon-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon-user">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="icon-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span id="countItems">0</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div id="container">
+      <section class="slideShow">
+        <div class="slideShow-container">
+          <div class="mySlides fade">
+            <img
+              src="media/slideshow/shoes1.jpg"
+              style="width: 100%; height: 90vh"
+            />
+            <div class="text">
+              <div class="text-container">
+                <h1 class="slide1-heading">ZEN VIVID 15</h1>
+                <div class="slide1-text">
+                  <span>The best Sellers from $99.00</span>
+                </div>
+                <div class="btn-slide">
+                  <button class="slide1-btn">SHOP NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides fade">
+            <img
+              src="media/slideshow/shoes2.jpg"
+              style="width: 100%; height: 90vh"
+            />
+            <div class="text2">
+              <div class="text2-container">
+                <h1 class="slide2-heading">STARTS FROM</h1>
+                <div class="slide2-text">
+                  <span>$&nbsp;745</span>
+                </div>
+                <div class="btn-slide">
+                  <button class="slide2-btn">VIEW COLLECTION</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides fade">
+            <img
+              src="media/slideshow/shoes3.jpg"
+              style="width: 100%; height: 90vh"
+            />
+            <div class="text3">
+              <div class="text3-container">
+                <div class="slide3-title">
+                  <span>summer canvas</span>
+                </div>
+                <h1 class="slide3-heading">
+                  FROM THE <br />
+                  SUMMER
+                </h1>
+                <div class="slide3-text">
+                  <p>
+                    Ullamcorper eget nulla facilisi etiam dignissim. Quis
+                    eleifend quam adipiscing vitae proin sagittis nisl rhoncus
+                    mattis. Scelerisque eu ultrices
+                  </p>
+                </div>
+                <div class="btn-slide">
+                  <button class="slide3-btn">SHOP NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </section>
+
+      <section class="slideshow-type">
+        <div class="slideshow-type-container">
+          <div class="additional-block">
+            <div class="item-additional-block">
+              <div class="image-gallery">
+                <img src="media/type_and_slide/type1.jpg" alt="" />
+              </div>
+              <div class="feature-content">
+                <h3>GYM SNEAKERS</h3>
+              </div>
+            </div>
+            <div class="item-additional-block">
+              <div class="image-gallery">
+                <img src="media/type_and_slide/type2.jpg" alt="" />
+              </div>
+              <div class="feature-content">
+                <h3>HIKING BOOTS</h3>
+              </div>
+            </div>
+            <div class="item-additional-block">
+              <div class="image-gallery">
+                <img src="media/type_and_slide/type3.jpg" alt="" />
+              </div>
+              <div class="feature-content">
+                <h3>WORK BOOTS</h3>
+              </div>
+            </div>
+            <div class="item-additional-block">
+              <div class="image-gallery">
+                <img src="media/type_and_slide/type4.jpg" alt="" />
+              </div>
+              <div class="feature-content">
+                <h3>CHUKKAS</h3>
+              </div>
+            </div>
+          </div>
+          <div class="main-block">
+            <div class="main-block-mySlides fade">
+              <img src="media/type_and_slide/slide1.jpg" style="width: 100%" />
+              <div class="main-block-mySlides-text">
+                <h1>
+                  COSMOS<br />
+                  STORES
+                </h1>
+                <div class="line"></div>
+
+                <span>MAKE THIS SEASON YOURS</span>
+              </div>
+            </div>
+
+            <div class="main-block-mySlides fade">
+              <img src="media/type_and_slide/slide2.jpg" style="width: 100%" />
+              <div class="main-block-mySlides-text">
+                <h1>SNEEK PEEK</h1>
+                <div class="line"></div>
+                <span> SPORTS EDITION* </span><br />
+                <span> *DISCOUNT AVAILABLE </span>
+              </div>
+            </div>
+
+            <div class="main-block-mySlides fade">
+              <img src="media/type_and_slide/slide3.jpg" style="width: 100%" />
+              <div class="main-block-mySlides-text">
+                <h1>SIGNS</h1>
+                <div class="line"></div>
+                <span> MAKE THIS SEASON YOURS</span>
+              </div>
+            </div>
+
+            <div class="btn-direction">
+              <a class="main-block-prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="main-block-next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="arrivals">
+        <div class="arrivals-container">
+          <div class="arrivals-heading">
+            <h1>NEW ARRIVALS</h1>
+            <span>Just in now</span>
+          </div>
+          <div
+            #swiperRef=""
+            class="swiper-container mySwiper arrivals-products"
+          >
+            <div class="swiper-wrapper arrivals-products-content">
+              <div class="swiper-slide">
+                <div class="arrivals-products-img">
+                  <img src="media/best_sell/shoes1.jpg" alt="" />
+                </div>
+                <div class="arrivals-products-desc">
+                  <div class="arrivals-products-title">
+                    <h3>ELEVATOR SHOES</h3>
+                  </div>
+                  <h4 class="arrivals-products-price">$389.00</h4>
+                  <div class="arrivals-products-rate">
+                    <div class="rate-star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="tab1-carts">
+                      <button class="tab1-carts-btn">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="arrivals-products-img">
+                  <img src="media/best_sell/shoes2.jpg" alt="" />
+                </div>
+                <div class="arrivals-products-desc">
+                  <div class="arrivals-products-title">
+                    <h3>ELEVATOR SHOES</h3>
+                  </div>
+                  <h4 class="arrivals-products-price">$389.00</h4>
+                  <div class="arrivals-products-rate">
+                    <div class="rate-star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="tab1-carts">
+                      <button class="tab1-carts-btn">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="arrivals-products-img">
+                  <img src="media/best_sell/shoes3.jpg" alt="" />
+                </div>
+                <div class="arrivals-products-desc">
+                  <div class="arrivals-products-title">
+                    <h3>ELEVATOR SHOES</h3>
+                  </div>
+                  <h4 class="arrivals-products-price">$389.00</h4>
+                  <div class="arrivals-products-rate">
+                    <div class="rate-star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="tab1-carts">
+                      <button class="tab1-carts-btn">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="arrivals-products-img">
+                  <img src="media/best_sell/shoes4.jpg" alt="" />
+                </div>
+                <div class="arrivals-products-desc">
+                  <div class="arrivals-products-title">
+                    <h3>ELEVATOR SHOES</h3>
+                  </div>
+                  <h4 class="arrivals-products-price">$389.00</h4>
+                  <div class="arrivals-products-rate">
+                    <div class="rate-star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="tab1-carts">
+                      <button class="tab1-carts-btn">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="arrivals-products-img">
+                  <img src="media/collection/shoes3.jpg" alt="" />
+                </div>
+                <div class="arrivals-products-desc">
+                  <div class="arrivals-products-title">
+                    <h3>ELEVATOR SHOES</h3>
+                  </div>
+                  <h4 class="arrivals-products-price">$389.00</h4>
+                  <div class="arrivals-products-rate">
+                    <div class="rate-star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="tab1-carts">
+                      <button class="tab1-carts-btn arrivals-btn">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="arrivals-products-img">
+                  <img src="media/collection/shoes2.jpg" alt="" />
+                </div>
+                <div class="arrivals-products-desc">
+                  <div class="arrivals-products-title">
+                    <h3>ELEVATOR SHOES</h3>
+                  </div>
+                  <h4 class="arrivals-products-price">$389.00</h4>
+                  <div class="arrivals-products-rate">
+                    <div class="rate-star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="tab1-carts">
+                      <button class="tab1-carts-btn">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="arrivals-products-img">
+                  <img src="media/collection/shoes1.jpg" alt="" />
+                </div>
+                <div class="arrivals-products-desc">
+                  <div class="arrivals-products-title">
+                    <h3>ELEVATOR SHOES</h3>
+                  </div>
+                  <h4 class="arrivals-products-price">$389.00</h4>
+                  <div class="arrivals-products-rate">
+                    <div class="rate-star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="tab1-carts">
+                      <button class="tab1-carts-btn">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="arrivals-btn">
+              <div class="swiper-button-next arrivals-next"></div>
+              <div class="swiper-button-prev arrivals-prev"></div>
+              <!-- <div class="swiper-pagination"></div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner-body">
+        <div class="background-banner">
+          <div class="banner-body-content">
+            <h4>THE SEASON BEGINGS</h4>
+            <h1>PROMOTION <span>SALE OFF 50%</span></h1>
+            <div class="banner-content-note">
+              <h1>HURRY</h1>
+              <h4>BEFORE OFFER ENDS</h4>
+            </div>
+            <div class="banner-content-btn">
+              <a href="">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bestseller">
+        <div class="bestseller-container">
+          <div class="bestseller-heading">
+            <h2 class="bestseller-main-heading">BEST SELLERS</h2>
+            <h6 class="bestseller-sub-heading">Just in Now</h6>
+            <div class="bestseller-heading-line"></div>
+          </div>
+          <div class="bestseller-content">
+            <div class="bestseller-content-tabs">
+              <div class="tablinks active" id="tab-1-all">ALL</div>
+              <div class="tablinks" id="tab-2-sale">SALE</div>
+              <div class="tablinks" id="tab-3-best">BEST</div>
+              <div class="tablinks" id="tab-4-new">NEW</div>
+            </div>
+            <div class="bestseller-content-products">
+              <div class="tab-1-all">
+                <ul class="product-collection">
+                  <li>
+                    <div class="tab1-product">
+                      <div class="tab1-product-img">
+                        <a href="" class="tab1-product-img-link">
+                          <img src="media/best_sell/shoes1.jpg" alt="" />
+                        </a>
+                      </div>
+                      <div class="tab1-product">
+                        <h5 class="tab1-product-title">BAST SHOES</h5>
+                        <div class="tab1-product-price">
+                          <span>$106.00</span>
+                        </div>
+                        <div class="tab1-product-rate">
+                          <div class="rate-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="tab1-carts">
+                            <button class="tab1-carts-btn">
+                              <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="tab1-product">
+                      <div class="tab1-product-img">
+                        <a href="" class="tab1-product-img-link">
+                          <img src="media/best_sell/shoes2.jpg" alt="" />
+                        </a>
+                      </div>
+                      <div class="tab1-product">
+                        <h5 class="tab1-product-title">BAST SHOES</h5>
+                        <div class="tab1-product-price">
+                          <span>$106.00</span>
+                        </div>
+                        <div class="tab1-product-rate">
+                          <div class="rate-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="tab1-carts">
+                            <button class="tab1-carts-btn">
+                              <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="tab1-product">
+                      <div class="tab1-product-img">
+                        <a href="" class="tab1-product-img-link">
+                          <img src="media/best_sell/shoes3.jpg" alt="" />
+                        </a>
+                      </div>
+                      <div class="tab1-product">
+                        <h5 class="tab1-product-title">BAST SHOES</h5>
+                        <div class="tab1-product-price">
+                          <span>$106.00</span>
+                        </div>
+                        <div class="tab1-product-rate">
+                          <div class="rate-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="tab1-carts">
+                            <button class="tab1-carts-btn">
+                              <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="tab1-product">
+                      <div class="tab1-product-img">
+                        <a href="">
+                          <img src="media/best_sell/shoes4.jpg" alt="" />
+                        </a>
+                      </div>
+                      <div class="tab1-product">
+                        <h5 class="tab1-product-title">BAST SHOES</h5>
+                        <div class="tab1-product-price">
+                          <span>$106.00</span>
+                        </div>
+                        <div class="tab1-product-rate">
+                          <div class="rate-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="tab1-carts">
+                            <button class="tab1-carts-btn">
+                              <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="tab1-product">
+                      <div class="tab1-product-img">
+                        <a href="" class="tab1-product-img-link">
+                          <img src="media/best_sell/shoes1.jpg" alt="" />
+                        </a>
+                      </div>
+                      <div class="tab1-product">
+                        <h5 class="tab1-product-title">BAST SHOES</h5>
+                        <div class="tab1-product-price">
+                          <span>$106.00</span>
+                        </div>
+                        <div class="tab1-product-rate">
+                          <div class="rate-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="tab1-carts">
+                            <button class="tab1-carts-btn">
+                              <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="support">
+        <div class="support-container">
+          <div class="support-delivery support-name">
+            <i class="fa-solid fa-plane"></i>
+            <span
+              >Free <br />
+              Delivery</span
+            >
+          </div>
+          <div class="support-discount support-name">
+            <i class="fa-brands fa-discourse"></i>
+            <span
+              >Clients <br />
+              Discounts</span
+            >
+          </div>
+          <div class="support-delivery support-name">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <span
+              >Return <br />
+              of goods</span
+            >
+          </div>
+          <div class="support-delivery support-name">
+            <i class="fa-solid fa-code-branch"></i>
+            <span
+              >Many <br />
+              Brands</span
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="media/logo_footer.png" alt="" />
+          </div>
+          <div class="footer-email">
+            <input
+              type="email"
+              name=""
+              id="txtEmail"
+              placeholder="Your email address"
+            />
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="footer-icon">
+            <ul class="footer-icon-list">
+              <li class="icon-fb"><i class="fa-brands fa-facebook-f"></i></li>
+              <li class="icon-tw"><i class="fa-brands fa-twitter"></i></li>
+              <li class="icon-g"><i class="fa-brands fa-google-plus-g"></i></li>
+              <li class="icon-tb"><i class="fa-brands fa-tumblr"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-contact-info">
+          <div class="footer-contact">
+            <h3>Contact us</h3>
+            <div>
+              <ul class="contact-content">
+                <li>
+                  <i class="fa-solid fa-building"></i>
+                  <span>
+                    No: 58 A, East Madison Street, <br />
+                    Baltimore, MD, USA 4508
+                  </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <span>000 - 123456789</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>info@example.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <h3>Info</h3>
+            <div>
+              <ul class="contact-content">
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Search Terms </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Advanced Search </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Orders and Returns </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Consultant </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Search Terms </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <h3>Help</h3>
+            <div class="">
+              <ul class="contact-content">
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> About </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Contact </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Privacy Policy </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Best Sellers </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Support </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <h3>Support</h3>
+            <div>
+              <ul class="contact-content">
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Search Terms </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Advanced Search </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Orders and Returns </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Consultant </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span> Search Terms </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <ul class="footer-menu">
+            <li>Search Terms Help & FAQs</li>
+            <li>Advanced Search</li>
+            <li>Orders and Returns</li>
+            <li>Consultant</li>
+            <li>Help & FAQs</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="func.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: false,
+        spaceBetween: 50,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".arrivals-next",
+          prevEl: ".arrivals-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
