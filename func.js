@@ -17,26 +17,22 @@ function showSlides(n,s) {
   let slides = document.getElementsByClassName("mySlides");
   let mainBlockSlides = document.getElementsByClassName("main-block-mySlides  ");
 
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
   if (s == 'bigSlider') {
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) { slideIndex = slides.length }
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
     slides[slideIndex - 1].style.display = "block";
   }
-  else {
-    for (i = 0; i < slides.length; i++) {
+  if (s == 'smallSlider') {
+    if (n > mainBlockSlides.length) {slideIndex = 1}
+    if (n < 1) { slideIndex = mainBlockSlides.length }
+    for (i = 0; i < mainBlockSlides.length; i++) {
       mainBlockSlides[i].style.display = "none";
     }
     mainBlockSlides[slideIndex-1].style.display = "block";
   }
-//   for (i = 0; i < slides.length; i++) {
-//     slides[i].style.display = "none";
-//     mainBlockSlides[i].style.display = "none";
-//   }
-//   slides[slideIndex - 1].style.display = "block";
-//   mainBlockSlides[slideIndex-1].style.display = "block";
   
 }
 
